@@ -1,0 +1,18 @@
+:root{
+    --main-color: #000000;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: var(--main-color);
+}
+.right-side{
+    display: flex;
+    gap: 0.5rem;
+}
+.fx-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
